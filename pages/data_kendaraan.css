@@ -1,0 +1,465 @@
+
+.data-kendaraan .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.data-kendaraan .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.data-kendaraan .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.data-kendaraan .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.data-kendaraan .vector {
+  width: 14.5px;
+  height: 18.4px;
+}
+.data-kendaraan .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.data-kendaraan .group {
+  width: 20px;
+  height: 20px;
+}
+.data-kendaraan .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-74 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .vector-3 {
+  width: 17px;
+  height: 15.2px;
+}
+.data-kendaraan .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.data-kendaraan .rute {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.data-kendaraan .frame-65 {
+  margin: 0 22.9px 50.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.data-kendaraan .isi-data-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.data-kendaraan .frame-77 {
+  border-radius: 8px;
+  background: #2F778D;
+  display: flex;
+  padding: 10px 19.6px 10px 19.3px;
+  flex-grow: 1;
+  flex-basis: 172.5px;
+  box-sizing: border-box;
+}
+.data-kendaraan .pilih-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  white-space: nowrap;
+  margin-left: 30px;
+}
+.data-kendaraan .frame-712 {
+  border-radius: 8px;
+  border: 1px solid rgba(47, 119, 141, 0.3);
+  background: #FFFFFF;
+  display: flex;
+  padding: 9px 0.8px 9px 0;
+  flex-grow: 1;
+  flex-basis: 172.5px;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-157 {
+  margin: 0 24px 21px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+.data-kendaraan .nomor-polisi {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.data-kendaraan .frame-66 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-67 {
+  border-radius: 8px;
+  width: 152px;
+  height: 41px;
+}
+.data-kendaraan .frame-68 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .nama-pemilik {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.data-kendaraan .frame-661 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-671 {
+  border-radius: 8px;
+  width: 152px;
+  height: 41px;
+}
+.data-kendaraan .frame-71 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .jenis-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.data-kendaraan .frame-662 {
+  margin: 10px 33.4px 10px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 117.6px;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-672 {
+  border-radius: 8px;
+  width: 152px;
+  height: 41px;
+}
+.data-kendaraan .frame-69 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .nama-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.data-kendaraan .frame-663 {
+  margin: 10px 26px 10px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 125px;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-673 {
+   border-radius: 8px;
+  width: 152px;
+  height: 41px;
+}
+.data-kendaraan .frame-70 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-72 {
+  margin: 0 0 24px 10px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+.data-kendaraan .konfirmasi {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 115px;
+  background-color: transparent;
+  border: none;
+}
+.data-kendaraan .frame-711 {
+  border-radius: 8px;
+  background: #FDBB11;
+  display: flex;
+  padding: 10px 0.8px 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+.data-kendaraan .frame-73 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #2F778D;
+  margin: 0 24px 72px 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+.data-kendaraan .data-kendaraan-anda {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  white-space: nowrap;
+}
+.data-kendaraan .frame-160 {
+  margin-bottom: 26px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.data-kendaraan .lanjut {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  background-color: transparent;
+  margin-left: 130px;
+  border: none;
+  color: #FFFFFF;
+}
+.data-kendaraan .frame-713 {
+  border-radius: 8px;
+  background: #3E545B;
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-161 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #FFFFFF;
+  margin: 0 24px 36px 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 17px 15px 7px 15px;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+.data-kendaraan .vector-4 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.data-kendaraan .frame-40 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.data-kendaraan .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.data-kendaraan .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.data-kendaraan .vector-5 {
+  width: 30px;
+  height: 30px;
+}
+.data-kendaraan .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.data-kendaraan .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.data-kendaraan .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-45 {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-75 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.data-kendaraan .vector-6 {
+  width: 32px;
+  height: 32px;
+}
+.data-kendaraan .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.data-kendaraan .frame-76 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 160px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.data-kendaraan {
+  background: #FFFFFF;
+  box-sizing: border-box;
+}
+/* CSS lainnya */
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f7fa; /* Warna biru muda */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+.input-box:focus {
+  background-color: #b2ebf2; /* Warna biru muda lebih gelap saat fokus */
+  outline: none; /* Menghilangkan outline */
+}

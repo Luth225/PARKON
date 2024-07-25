@@ -1,0 +1,221 @@
+.scan-qr .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.scan-qr .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.scan-qr .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.scan-qr .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.scan-qr .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.scan-qr .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.scan-qr .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.scan-qr .vector-1 {
+  width: 14.5px;
+  height: 18.4px;
+}
+.scan-qr .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.scan-qr .group {
+  width: 20px;
+  height: 20px;
+}
+.scan-qr .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.scan-qr .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.scan-qr .frame-43 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.scan-qr .vector-4 {
+  width: 17px;
+  height: 15.2px;
+}
+.scan-qr .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.scan-qr .rute {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.scan-qr .frame-65 {
+  margin: 0 22.9px 132.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.scan-qr .vector {
+  margin: 0 30px 234.2px 30px;
+  align-self: flex-start;
+  width: 320.8px;
+  height: 308.8px;
+}
+.scan-qr .vector-5 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.scan-qr .frame-40 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+}
+.scan-qr .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.scan-qr .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.scan-qr .frame-431 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.scan-qr .vector-6 {
+  width: 30px;
+  height: 30px;
+}
+.scan-qr .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.scan-qr .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.scan-qr .frame-441 {
+  display: flex;
+  box-sizing: border-box;
+}
+.scan-qr .frame-45 {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.scan-qr .frame-44 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.scan-qr .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.scan-qr .vector-7 {
+  width: 32px;
+  height: 32px;
+}
+.scan-qr .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.scan-qr .frame-451 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 156px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.scan-qr {
+  background: #FFFFFF;
+  display: flex;
+  box-sizing: border-box;
+}

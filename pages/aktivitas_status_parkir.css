@@ -1,0 +1,396 @@
+.aktivitas-status-parkir .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.aktivitas-status-parkir .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.aktivitas-status-parkir .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.aktivitas-status-parkir .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .vector-1 {
+  width: 14.5px;
+  height: 18.4px;
+}
+.aktivitas-status-parkir .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .group {
+  width: 20px;
+  height: 20px;
+}
+.aktivitas-status-parkir .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-90 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .vector {
+  width: 17px;
+  height: 15.2px;
+}
+.aktivitas-status-parkir .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .detail-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-30 {
+  margin: 0 22.9px 27.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .status-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 50px;
+}
+.aktivitas-status-parkir .frame-77 {
+  border-radius: 8px;
+  background: #224551;
+  display: flex;
+  padding: 10px 0.8px 10px 0;
+  width: 180.5px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .history {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  margin-right: 70px;
+}
+.aktivitas-status-parkir .frame-78 {
+  border-radius: 8px;
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-79 {
+  margin: 0 13px 28px 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 361px;
+  box-sizing: border-box;
+  border: 1px solid #000000; /* Menambahkan border hitam dengan lebar 2px */
+  border-radius: 12px;
+}
+.aktivitas-status-parkir .container {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-84 {
+  margin: 0 10.5px 16px 10.5px;
+  display: flex;
+  align-self: flex-end;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .kendaraan-anda {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-80 {
+  margin-bottom: 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .ab-4567-ux {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-81 {
+  margin-bottom: 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .sedang-parkir-di {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-82 {
+  margin-bottom: 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .parkiran-abu-bakar-ali {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-83 {
+  margin-bottom: 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .waktu-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.aktivitas-status-parkir .frame-85 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .container-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 40px;
+}
+.aktivitas-status-parkir .frame-86 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  display: flex;
+  padding: 8px 0.4px 8px 0;
+  width: 142px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-87 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-88 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #F5F5F5;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 16px 26px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .detail {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 45px;
+}
+.aktivitas-status-parkir .frame-771 {
+  border-radius: 8px;
+  background: #224551;
+  display: flex;
+  padding: 10px 0.7px 10px 0;
+  width: 120.3px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-89 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #2F778D;
+  margin: 0 16px 259px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: calc(100% - 32px);
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .vector-4 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.aktivitas-status-parkir .frame-401 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+}
+.aktivitas-status-parkir .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.aktivitas-status-parkir .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-40 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+.aktivitas-status-parkir .vector-5 {
+  width: 30px;
+  height: 30px;
+}
+.aktivitas-status-parkir .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .history-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+.aktivitas-status-parkir .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-45 {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.aktivitas-status-parkir .frame-91 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .vector-6 {
+  width: 32px;
+  height: 32px;
+}
+.aktivitas-status-parkir .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir .frame-92 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 156px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.aktivitas-status-parkir {
+  background: #FFFFFF;
+  box-sizing: border-box;
+}

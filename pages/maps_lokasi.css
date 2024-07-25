@@ -1,0 +1,445 @@
+
+.maps-lokasi .frame-53 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.maps-lokasi .frame-44,
+.maps-lokasi .frame-451,
+.maps-lokasi .frame-46,
+.maps-lokasi .frame-47 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #2F778D;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 6px 8px; /* Adjusted padding for better spacing */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.maps-lokasi .basillocation-solid,
+.maps-lokasi .basillocation-solid-1,
+.maps-lokasi .basillocation-solid-2,
+.maps-lokasi .basillocation-solid-3 {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.maps-lokasi .parkiran-abu-bakar-ali,
+.maps-lokasi .parkiran-malioboro-gandekan,
+.maps-lokasi .parkiran-587-badran,
+.maps-lokasi .parkiran-beskalan-parking-lot {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  flex-grow: 1; /* Allow text to take available space */
+}
+
+.maps-lokasi .frame-55 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.maps-lokasi .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.maps-lokasi .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.maps-lokasi .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.maps-lokasi .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.maps-lokasi .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.maps-lokasi .vector {
+  width: 14.5px;
+  height: 18.4px;
+}
+.maps-lokasi .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.maps-lokasi .group {
+  width: 20px;
+  height: 20px;
+}
+.maps-lokasi .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-55 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .vector-3 {
+  width: 17px;
+  height: 15.2px;
+}
+.maps-lokasi .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.maps-lokasi .maps {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.maps-lokasi .frame-30 {
+  margin: 0 22.9px 8.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.maps-lokasi .rectangle-111 {
+  background: url('../assets/images/rectangle_11.png') 50% / cover no-repeat;
+  width: 361px;
+  height: 410px;
+}
+.maps-lokasi .rectangle-11 {
+  margin: 0 16px 16px 16px;
+  display: flex;
+  width: 361px;
+  height: 410px;
+  box-sizing: border-box;
+}
+.maps-lokasi .lokasi {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.maps-lokasi .frame-431 {
+  margin-bottom: 11px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.maps-lokasi .basillocation-solid {
+  width: 24px;
+  height: 24px;
+}
+.maps-lokasi .parkiran-abu-bakar-ali {
+  margin: 3px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.maps-lokasi .frame-44 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #2F778D;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 0 6px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .basillocation-solid-1 {
+  width: 24px;
+  height: 24px;
+}
+.maps-lokasi .parkiran-malioboro-gandekan {
+  margin: 3px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.maps-lokasi .frame-451 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #2F778D;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 0 6px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .basillocation-solid-2 {
+  width: 24px;
+  height: 24px;
+}
+.maps-lokasi .parkiran-587-badran {
+  margin: 3px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.maps-lokasi .frame-46 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #2F778D;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 0 6px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .basillocation-solid-3 {
+  width: 24px;
+  height: 24px;
+}
+.maps-lokasi .parkiran-beskalan-parking-lot {
+  margin: 3px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.maps-lokasi .frame-47 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: #2F778D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6px 0 6px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-53 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-54 {
+  margin: 0 16px 44px 16px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 32px);
+  box-sizing: border-box;
+}
+.maps-lokasi .vector-4 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.maps-lokasi .frame-40 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.maps-lokasi .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.maps-lokasi .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.maps-lokasi .vector-5 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.maps-lokasi .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.maps-lokasi .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.maps-lokasi .frame-441 {
+  display: flex;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-45 {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-56 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.maps-lokasi .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.maps-lokasi .vector-6 {
+  width: 32px;
+  height: 32px;
+}
+.maps-lokasi .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.maps-lokasi .frame-57 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 160px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.maps-lokasi {
+  background: #FFFFFF;
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* CSS lainnya */
+
+/* Efek hover untuk teks */
+.maps-lokasi .container .frame-55 .frame-13 .frame-12 .frame-10 .paijo-bejo:hover,
+.maps-lokasi .container .frame-55 .frame-13 .frame-12 .frame-11 .where-are-you-going-today:hover,
+.maps-lokasi .container .frame-30 .maps:hover,
+.maps-lokasi .container .frame-54 .frame-431 .lokasi:hover,
+.maps-lokasi .container .frame-54 .frame-53 .frame-44 .parkiran-abu-bakar-ali:hover,
+.maps-lokasi .container .frame-54 .frame-53 .frame-451 .parkiran-malioboro-gandekan:hover,
+.maps-lokasi .container .frame-54 .frame-53 .frame-46 .parkiran-587-badran:hover,
+.maps-lokasi .container .frame-54 .frame-53 .frame-47 .parkiran-beskalan-parking-lot:hover,
+.maps-lokasi .container .frame-56 .frame-42 .home:hover,
+.maps-lokasi .container .frame-56 .frame-441 .history:hover {
+  color: #8198ff; /* Warna biru yang diinginkan */
+  transform: scale(1.1); /* Membesar */
+  transition: color 0.3s, transform 0.3s;
+}
+
+/* Efek hover untuk vektor */
+.maps-lokasi .container .frame-55 .frame-14 .material-symbols-lightnotifications-unread-outline-rounded:hover img,
+.maps-lokasi .container .frame-55 .frame-14 .iconoirlanguage:hover img,
+.maps-lokasi .container .frame-30 .fi-sr-arrow-small-left:hover img,
+.maps-lokasi .container .frame-54 .frame-53 .frame-44:hover img,
+.maps-lokasi .container .frame-54 .frame-53 .frame-451:hover img,
+.maps-lokasi .container .frame-54 .frame-53 .frame-46:hover img,
+.maps-lokasi .container .frame-54 .frame-53 .frame-47:hover img,
+.maps-lokasi .container .frame-56 .frame-43:hover img,
+.maps-lokasi .container .frame-56 .frame-57:hover img,
+.maps-lokasi .container .frame-56 .frame-45:hover img {
+  filter: brightness(0) saturate(100%) invert(49%) sepia(73%) saturate(530%) hue-rotate(182deg) brightness(92%) contrast(95%);
+  transform: scale(1.1); /* Membesar */
+  transition: filter 0.3s, transform 0.3s;
+}

@@ -1,0 +1,232 @@
+
+.login .screenshot-20240701101313-removebg-preview-3 {
+  background: url('../assets/images/screenshot_20240701101313_removebg_preview_1.png') center / contain no-repeat;
+  margin-bottom: 66px;
+  width: 202px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.login .screenshot-20240701101313-removebg-preview-3 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.login .login-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 45px;
+}
+.login .frame-1 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 10px 0.7px 10px 0;
+  width: 130px;
+  box-sizing: border-box;
+}
+.login .sign-up {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin-right: 60px;
+}
+.login .frame-81 {
+  border-radius: 16px;
+  margin: 9px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.login .frame-8 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: 1px solid #224551;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login .email {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #7C6C6C;
+}
+.login .frame-3 {
+  background: #FFFFFF;
+  margin-bottom: 16px;
+  padding: 9px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login .password {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #7C6C6C;
+}
+.login .frame-4 {
+  background: #FFFFFF;
+  margin-bottom: 26px;
+  padding: 9px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login .forgot-password {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #224551;
+}
+.login .frame-5 {
+  margin: 0 10px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.login .frame-7 {
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login .login-2 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.login .frame-11 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 10px 0.7px 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login .frame-9 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login {
+  background: #578390;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 115px 35px 265px 34px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.frame-9 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Border for the container */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.frame-8 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.frame-1, .frame-81 {
+  font-size: 1.2em;
+}
+
+.frame-7 {
+  margin-bottom: 20px;
+}
+
+.frame-3, .frame-4, .frame-5 {
+  margin-bottom: 10px;
+}
+
+.email, .password {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow only at the bottom */
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #224551; /* Border color on focus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+}
+
+.frame-11 {
+  display: flex;
+  justify-content: center;
+}
+
+button.login-2 {
+  padding: 10px 20px;
+  background-color: #224551;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.login-2:hover {
+  background-color: #1b373f;
+}

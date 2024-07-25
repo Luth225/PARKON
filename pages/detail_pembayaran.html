@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detail Pembayaran</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="detail_pembayaran.css" />
+</head>
+<body>
+    <div class="iphone-frame">
+        <div class="iphone-screen">
+    <div class="detail-kendaraan">
+        <div class="container">
+            <div class="frame-74">
+                <div class="frame-13">
+                    <div class="ellipse-3"></div>
+                    <div class="frame-12">
+                        <div class="frame-10">
+                            <span class="paijo-bejo">Paijo Bejo</span>
+                        </div>
+                        <div class="frame-11">
+                            <span class="where-are-you-going-today">Ke mana hari ini?</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-14">
+                    <div class="material-symbols-lightnotifications-unread-outline-rounded">
+                        <img class="vector" src="../assets/vectors/vector_28_x2.svg" />
+                    </div>
+                    <div class="iconoirlanguage">
+                        <img class="group" src="../assets/vectors/group_10_x2.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="frame-65">
+                <div class="fi-sr-arrow-small-left" id="back-arrow">
+                    <img class="vector-3" src="../assets/vectors/vector_64_x2.svg" />
+                </div>
+                <span class="rute">Detail Pembayaran</span>
+            </div>
+            <div class="frame-73">
+                <div class="frame-72">
+                    <!-- Menampilkan data kendaraan -->
+                    <div>
+                        <div class="frame-66">
+                            <span class="nomor-polisi">Nomor Polisi</span>
+                        </div>
+                        <div class="frame-67">
+                            <span id="nomor-polisi"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frame-661">
+                            <span class="jenis-kendaraan">Jenis Kendaraan</span>
+                        </div>
+                        <div class="frame-671">
+                            <span id="jenis-kendaraan"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frame-662">
+                            <span class="nama-kendaraan">Nama Kendaraan</span>
+                        </div>
+                        <div class="frame-672">
+                            <span id="nama-kendaraan"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frame-663">
+                            <span class="lokasi-parkir">Lokasi Parkir</span>
+                        </div>
+                        <div class="frame-673">
+                            <span id="lokasi-parkir"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frame-664">
+                            <span class="waktu-parkir">Waktu Parkir</span>
+                        </div>
+                        <div class="frame-674">
+                            <span id="waktu-parkir"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frame-664">
+                            <span class="waktu-keluar">Waktu Keluar</span>
+                        </div>
+                        <div class="frame-674">
+                            <span id="waktu-keluar"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="frame-664">
+                            <span class="biaya-keluar">Biaya Keluar</span>
+                        </div>
+                        <div class="frame-674">
+                            <span id="biaya-keluar"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-741">
+                    <!-- Tombol untuk melanjutkan pembayaran -->
+                    <div class="frame-731">
+                        <button class="bayar">Bayar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="frame-75">
+                <div class="frame-43">
+                    <div class="frame-40" id="home-link">
+                        <img class="vector-4" src="../assets/vectors/vector_32_x2.svg" />
+                    </div>
+                    <div class="frame-42">
+                        <span class="home">Home</span>
+                    </div>
+                </div>
+                <div class="frame-45">
+                    <div class="material-symbolshistory">
+                        <img class="vector-5" src="../assets/vectors/vector_25_x2.svg" />
+                    </div>
+                    <div class="frame-44">
+                        <span class="history">History</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('home-link').addEventListener('click', function() {
+            window.location.href = 'home.html';
+        });
+        document.getElementById('back-arrow').addEventListener('click', function() {
+            window.location.href = 'detail_kendaraan.html';
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mengambil data kendaraan dari localStorage
+            const vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
+
+            // Menampilkan data kendaraan
+            document.getElementById('nomor-polisi').innerText = vehicleData ? vehicleData.nomorPolisi : 'Tidak tersedia';
+            document.getElementById('jenis-kendaraan').innerText = vehicleData ? vehicleData.jenisKendaraan : 'Tidak tersedia';
+            document.getElementById('nama-kendaraan').innerText = vehicleData ? vehicleData.namaKendaraan : 'Tidak tersedia';
+            document.getElementById('lokasi-parkir').innerText = vehicleData ? vehicleData.location : 'Tidak tersedia';
+            document.getElementById('waktu-parkir').innerText = vehicleData ? vehicleData.time : 'Tidak tersedia';
+
+            // Simulasi waktu keluar dan biaya keluar (digunakan sebagai contoh)
+            const waktuKeluar = new Date().toLocaleString();
+            const biayaKeluar = 3000; // Ganti dengan biaya keluar sesuai dengan logika aplikasi Anda
+
+            // Simpan data waktu keluar dan biaya keluar di localStorage
+            const paymentData = {
+                waktuKeluar: waktuKeluar,
+                biayaKeluar: biayaKeluar
+            };
+            localStorage.setItem('paymentData', JSON.stringify(paymentData));
+
+            // Menampilkan waktu keluar dan biaya keluar (jika ada)
+            document.getElementById('waktu-keluar').innerText = paymentData.waktuKeluar;
+            document.getElementById('biaya-keluar').innerText = paymentData.biayaKeluar.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+
+            // Event listener untuk tombol "Bayar"
+            document.querySelector('.bayar').addEventListener('click', function() {
+                // Arahkan pengguna ke halaman pembayaran
+                window.location.href = 'pembayaran.html';
+            });
+        });
+    </script>
+</body>
+</html>

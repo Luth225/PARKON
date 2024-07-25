@@ -1,0 +1,453 @@
+.data-kendaraan-1 .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.data-kendaraan-1 .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .vector {
+  width: 14.5px;
+  height: 18.4px;
+}
+.data-kendaraan-1 .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .group {
+  width: 20px;
+  height: 20px;
+}
+.data-kendaraan-1 .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-74 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .vector-3 {
+  width: 17px;
+  height: 15.2px;
+}
+.data-kendaraan-1 .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .rute {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.data-kendaraan-1 .frame-65 {
+  margin: 0 22.9px 50.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .isi-data-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-77 {
+  border-radius: 8px;
+  background: #2F778D;
+  display: flex;
+  padding: 10px 19.6px 10px 19.3px;
+  flex-grow: 1;
+  flex-basis: 172.5px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .pilih-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.data-kendaraan-1 .frame-712 {
+  border-radius: 8px;
+  border: 1px solid rgba(47, 119, 141, 0.3);
+  background: #FFFFFF;
+  display: flex;
+  padding: 9px 0.8px 9px 0;
+  flex-grow: 1;
+  flex-basis: 172.5px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-157 {
+  margin: 0 24px 21px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .nomor-polisi {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-66 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-67 {
+  border-radius: 8px;
+  background: #D6EEF5;
+  width: 152px;
+  height: 41px;
+}
+.data-kendaraan-1 .frame-68 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .nama-pemilik {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-661 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-671 {
+  border-radius: 8px;
+  background: #D6EEF5;
+  width: 152px;
+  height: 41px;
+}
+.data-kendaraan-1 .frame-71 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .jenis-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-662 {
+  margin: 10px 33.4px 10px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 117.6px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-672 {
+  border-radius: 8px;
+  background: #D6EEF5;
+  height: 41px;
+  flex-grow: 1;
+  flex-basis: 152px;
+}
+.data-kendaraan-1 .frame-69 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .nama-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-663 {
+  margin: 10px 26px 10px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 125px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-673 {
+  border-radius: 8px;
+  background: #D6EEF5;
+  height: 41px;
+  flex-grow: 1;
+  flex-basis: 152px;
+}
+.data-kendaraan-1 .frame-70 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-72 {
+  margin: 0 0 24px 10px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .konfirmasi {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.data-kendaraan-1 .frame-711 {
+  border-radius: 8px;
+  background: #FDBB11;
+  display: flex;
+  padding: 10px 0.8px 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-73 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #2F778D;
+  margin: 0 24px 72px 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .data-kendaraan-anda {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  white-space: nowrap;
+}
+.data-kendaraan-1 .frame-158 {
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .beat-ab-2222-kl {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.data-kendaraan-1 .frame-159 {
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-160 {
+  margin: 0 1px 26px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 1px);
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .lanjut {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-713 {
+  border-radius: 8px;
+  background: #224551;
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-161 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #FFFFFF;
+  margin: 0 24px 36px 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 17px 15px 7px 15px;
+  width: calc(100% - 48px);
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .vector-4 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.data-kendaraan-1 .frame-40 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+}
+.data-kendaraan-1 .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .vector-5 {
+  width: 30px;
+  height: 30px;
+}
+.data-kendaraan-1 .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.data-kendaraan-1 .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-45 {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-75 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .vector-6 {
+  width: 32px;
+  height: 32px;
+}
+.data-kendaraan-1 .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.data-kendaraan-1 .frame-76 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 156px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.data-kendaraan {
+  background: #FFFFFF;
+  box-sizing: border-box;
+}

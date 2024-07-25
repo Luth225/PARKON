@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scan QR</title>
+    <link rel="stylesheet" href="scan_qr.css" />
+    <script src="https://unpkg.com/@zxing/library@latest"></script>
+</head>
+<body>
+    <div class="iphone-frame">
+        <div class="iphone-screen">
+    <div class="scan-qr">
+        <div class="container">
+            <div class="frame-43">
+                <div class="frame-13">
+                    <div class="ellipse-3"></div>
+                    <div class="frame-12">
+                        <div class="frame-10">
+                            <span class="paijo-bejo">Paijo Bejo</span>
+                        </div>
+                        <div class="frame-11">
+                            <span class="where-are-you-going-today">Ke mana hari ini?</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-14">
+                    <div class="material-symbols-lightnotifications-unread-outline-rounded">
+                        <img class="vector-1" src="../assets/vectors/vector_54_x2.svg" />
+                    </div>
+                    <div class="iconoirlanguage">
+                        <img class="group" src="../assets/vectors/group_5_x2.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="frame-65">
+                <div class="fi-sr-arrow-small-left" id="back-arrow">
+                    <img class="vector-4" src="../assets/vectors/vector_20_x2.svg" />
+                </div>
+                <span class="rute">Scan QR</span>
+            </div>
+            <video id="preview" width="100%" height="auto" autoplay></video>
+            <div id="scan-result" class="scan-result"></div>
+        </div>
+    </div>
+    <script>
+        const codeReader = new ZXing.BrowserQRCodeReader();
+        
+        // Mulai kamera dan scan QR
+        async function startCamera() {
+            const videoInputDevices = await codeReader.listVideoInputDevices();
+            const firstDeviceId = videoInputDevices[0].deviceId;
+
+            codeReader.decodeFromVideoDevice(firstDeviceId, 'preview', (result, err) => {
+                if (result) {
+                    handleQRCodeScanned(result.text);
+                }
+                if (err && !(err instanceof ZXing.NotFoundException)) {
+                    console.error(err);
+                }
+            });
+        }
+
+        startCamera();
+
+        // Simulasi pemindaian QR selama 5 detik
+        setTimeout(() => {
+            // Simulasi hasil QR code
+            const simulatedQRCode = "QR_CODE_DATA"; // Ganti dengan data QR sebenarnya jika ada
+            handleQRCodeScanned(simulatedQRCode);
+        }, 5000); // Simulasi 5 detik
+
+        function handleQRCodeScanned(qrCode) {
+            document.getElementById('scan-result').innerText = `Hasil Pemindaian: ${qrCode}`;
+            fetchVehicleData(qrCode);
+        }
+
+        function fetchVehicleData(qrCode) {
+            const keluarData = {
+                waktuKeluar: new Date().toLocaleString(),
+                nomorPolisi: localStorage.getItem('nomorPolisi'),
+                namaPemilik: localStorage.getItem('namaPemilik'),
+                jenisKendaraan: localStorage.getItem('jenisKendaraan'),
+                namaKendaraan: localStorage.getItem('namaKendaraan')
+            };
+
+            localStorage.setItem('keluarData', JSON.stringify(keluarData));
+            window.location.href = 'detail_pembayaran.html';
+        }
+        document.getElementById('back-arrow').addEventListener('click', function() {
+    window.location.href = 'detail_kendaraan.html';
+  });
+    </script>
+</body>
+</html>

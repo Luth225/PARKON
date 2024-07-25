@@ -1,0 +1,337 @@
+.detail-parkiran .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.detail-parkiran .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.detail-parkiran .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.detail-parkiran .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.detail-parkiran .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.detail-parkiran .vector-2 {
+  width: 14.5px;
+  height: 18.4px;
+}
+.detail-parkiran .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.detail-parkiran .group {
+  width: 20px;
+  height: 20px;
+}
+.detail-parkiran .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-63 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-parkiran .vector-5 {
+  width: 17px;
+  height: 15.2px;
+}
+.detail-parkiran .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.detail-parkiran .parkiran-abu-bakar-ali-1 {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.detail-parkiran .frame-59 {
+  margin: 0 22.9px 11.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.detail-parkiran .rectangle-12 {
+  background: url('../assets/images/rectangle_121.png') 50% / cover no-repeat;
+  margin: 0 16px 13px 16px;
+  width: 361px;
+  height: 410px;
+}
+.detail-parkiran .detail-lokasi-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.detail-parkiran .frame-431 {
+  margin-bottom: 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.detail-parkiran .basillocation-solid {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+.detail-parkiran .parkiran-abu-bakar-ali {
+  margin: 3px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.detail-parkiran .frame-56 {
+  margin-bottom: 11px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.detail-parkiran .rectangle-121 {
+  border-radius: 8px;
+  background: url('../assets/images/rectangle_12.png') 50% / cover no-repeat;
+  width: 103px;
+  height: 104px;
+}
+.detail-parkiran .frame-55 {
+  margin: 0 9px 3px 0;
+  display: flex;
+  height: 104px;
+  flex-grow: 1;
+  flex-basis: 103px;
+  box-sizing: border-box;
+}
+.detail-parkiran .jl-abu-bakar-ali-no-75001-suryatmajan-kec-danurejan-kota-yogyakarta-daerah-istimewa-yogyakarta-55213 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #000000;
+}
+.detail-parkiran .frame-57 {
+  margin: 0 10px 22px 10px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.detail-parkiran .rute {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 75px;
+}
+.detail-parkiran .frame-58 {
+  border-radius: 8px;
+  background: #224551;
+  display: flex;
+  padding: 6px 0.2px 6px 0;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+.detail-parkiran .frame-591 {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 193px;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-60 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-61 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 27px 15px 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-62 {
+  margin: 0 16px 33px 16px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 32px);
+  box-sizing: border-box;
+}
+.detail-parkiran .vector-6 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.detail-parkiran .frame-40 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.detail-parkiran .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.detail-parkiran .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.detail-parkiran .vector-7 {
+  width: 30px;
+  height: 30px;
+}
+.detail-parkiran .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.detail-parkiran .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.detail-parkiran .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-45 {
+  margin: 1px 0px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-64 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-parkiran .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.detail-parkiran .vector-8 {
+  width: 32px;
+  height: 32px;
+}
+.detail-parkiran .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.detail-parkiran .frame-65 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 160px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.detail-parkiran {
+  background: #FFFFFF;
+  display: flex;
+  box-sizing: border-box;
+}

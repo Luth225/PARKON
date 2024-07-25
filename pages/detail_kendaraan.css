@@ -1,0 +1,432 @@
+.detail-kendaraan .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.detail-kendaraan .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.detail-kendaraan .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.detail-kendaraan .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.detail-kendaraan .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.detail-kendaraan .vector {
+  width: 14.5px;
+  height: 18.4px;
+}
+.detail-kendaraan .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.detail-kendaraan .group {
+  width: 20px;
+  height: 20px;
+}
+.detail-kendaraan .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-74 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .vector-3 {
+  width: 17px;
+  height: 15.2px;
+}
+.detail-kendaraan .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.detail-kendaraan .rute {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.detail-kendaraan .frame-65 {
+  margin: 0 22.9px 55.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.detail-kendaraan .nomor-polisi {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.detail-kendaraan .frame-66 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-67 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f7fa; /* Warna biru muda */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+.detail-kendaraan .frame-68 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .jenis-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.detail-kendaraan .frame-661 {
+  margin: 10px 25.9px 10px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 117.6px;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-671 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f7fa; /* Warna biru muda */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+.detail-kendaraan .frame-69 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .nama-kendaraan {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.detail-kendaraan .frame-662 {
+  margin: 10px 18.5px 10px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 125px;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-672 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f7fa; /* Warna biru muda */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+.detail-kendaraan .frame-70 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .lokasi-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.detail-kendaraan .frame-663 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-673 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f7fa; /* Warna biru muda */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+.detail-kendaraan .frame-71 {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .waktu-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.detail-kendaraan .frame-664 {
+  margin: 10px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-674 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #e0f7fa; /* Warna biru muda */
+  border: none; /* Menghilangkan border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+.detail-kendaraan .frame-721 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-72 {
+  margin: 0 0 50px 10px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+.detail-kendaraan .lanjutkan-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 100px;
+}
+.detail-kendaraan .frame-711 {
+  border-radius: 8px;
+  background: #224551;
+  margin-bottom: 12px;
+  display: flex;
+  padding: 10px 1px 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .bayar-parkir {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 115px;
+}
+.detail-kendaraan .frame-731 {
+  border-radius: 8px;
+  background: #224551;
+  display: flex;
+  padding: 10px 1px 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-741 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-73 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #2F778D;
+  margin: 0 33px 143px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  width: calc(100% - 63px);
+  box-sizing: border-box;
+}
+.detail-kendaraan .vector-4 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.detail-kendaraan .frame-40 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.detail-kendaraan .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.detail-kendaraan .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.detail-kendaraan .vector-5 {
+  width: 30px;
+  height: 30px;
+}
+.detail-kendaraan .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.detail-kendaraan .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.detail-kendaraan .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-45 {
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-75 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.detail-kendaraan .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.detail-kendaraan .vector-6 {
+  width: 32px;
+  height: 32px;
+}
+.detail-kendaraan .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.detail-kendaraan .frame-76 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 160px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.detail-kendaraan {
+  background: #FFFFFF;
+  box-sizing: border-box;
+}

@@ -1,0 +1,820 @@
+.pembayaran .ellipse-3 {
+  border-radius: 20px;
+  background: url('../assets/images/ellipse_3.png') 50% / cover no-repeat;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+.pembayaran .paijo-bejo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.pembayaran .frame-10 {
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.pembayaran .where-are-you-going-today {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 8px;
+  color: #FFFFFF;
+}
+.pembayaran .frame-11 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-12 {
+  margin: 3.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.pembayaran .frame-13 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.pembayaran .vector-1 {
+  width: 14.5px;
+  height: 18.4px;
+}
+.pembayaran .material-symbols-lightnotifications-unread-outline-rounded {
+  margin: 1px 0 0.6px 0;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.pembayaran .group {
+  width: 20px;
+  height: 20px;
+}
+.pembayaran .iconoirlanguage {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.pembayaran .frame-14 {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .frame-140 {
+  background: #2F778D;
+  margin-bottom: 27.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 18px 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.pembayaran .vector {
+  width: 17px;
+  height: 15.2px;
+}
+.pembayaran .fi-sr-arrow-small-left {
+  margin: 2.9px 12.1px 2.9px 0;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.pembayaran .payment-method {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+.pembayaran .frame-30 {
+  margin: 0 22.9px 3.5px 22.9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .digital-wallet {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.pembayaran .frame-96 {
+  margin-bottom: 32px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-16 {
+  border-radius: 8px;
+  background: #C5323B;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-102 {
+  margin: 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-25 {
+  background: url('../assets/images/rectangle_25.png') 50% / cover no-repeat;
+  width: 40px;
+  height: 13px;
+}
+.pembayaran .frame-112 {
+  margin: 2.5px 0;
+  display: flex;
+  width: 60px;
+  height: 33px;
+  box-sizing: border-box;
+}
+.pembayaran .ovo {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-90 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-123 {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-161 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-103 {
+  margin: 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-26 {
+  background: url('../assets/images/rectangle_26.png') 50% / cover no-repeat;
+  width: 67px;
+  height: 13px;
+}
+.pembayaran .frame-113 {
+  margin: 2.5px 0;
+  display: flex;
+  width: 87px;
+  height: 33px;
+  box-sizing: border-box;
+}
+.pembayaran .gopay {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-91 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-122 {
+  margin: 0 9.4px 22px 0;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-162 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-104 {
+  margin: 3px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-27 {
+  background: url('../assets/images/rectangle_27.png') 50% / cover no-repeat;
+  width: 50px;
+  height: 22px;
+}
+.pembayaran .frame-114 {
+  display: flex;
+  width: 70px;
+  height: 22px;
+  box-sizing: border-box;
+}
+.pembayaran .shopee-pay {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-93 {
+  margin: 2px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-121 {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-163 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-105 {
+  margin: 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-28 {
+  background: url('../assets/images/rectangle_28.png') 50% / cover no-repeat;
+  width: 57px;
+  height: 15px;
+}
+.pembayaran .frame-115 {
+  margin: 1.5px 0;
+  display: flex;
+  width: 77px;
+  height: 15px;
+  box-sizing: border-box;
+}
+.pembayaran .dana {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-92 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-120 {
+  margin-bottom: 22.5px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-164 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-106 {
+  margin: 2.5px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-29 {
+  background: url('../assets/images/rectangle_29.png') 50% / cover no-repeat;
+  width: 28px;
+  height: 21px;
+}
+.pembayaran .frame-116 {
+  display: flex;
+  width: 50px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.pembayaran .link-aja {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  margin-right: 150px;
+}
+.pembayaran .frame-94 {
+  margin: 1.5px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-119 {
+  margin-bottom: 22.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 330px;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-165 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-107 {
+  margin: 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-30 {
+  background: url('../assets/images/rectangle_30.png') 50% / cover no-repeat;
+  width: 45px;
+  height: 16px;
+}
+.pembayaran .frame-117 {
+  margin: 1px 0;
+  display: flex;
+  width: 65px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.pembayaran .qris {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-95 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-118 {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .frame-132 {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .bank-transfer {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-97 {
+  margin-bottom: 29px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-166 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-108 {
+  margin: 4px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-31 {
+  background: url('../assets/images/rectangle_31.png') 50% / cover no-repeat;
+  width: 40px;
+  height: 24px;
+}
+.pembayaran .frame-127 {
+  display: flex;
+  width: 60px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.pembayaran .bni {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-98 {
+  margin: 3px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-128 {
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-167 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-109 {
+  margin: 5px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-32 {
+  background: url('../assets/images/rectangle_32.png') 50% / cover no-repeat;
+  width: 30px;
+  height: 26px;
+}
+.pembayaran .frame-126 {
+  display: flex;
+  width: 50px;
+  height: 26px;
+  box-sizing: border-box;
+}
+.pembayaran .bri {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-99 {
+  margin: 4px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-129 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 25px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-168 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-110 {
+  margin: 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-33 {
+  background: url('../assets/images/rectangle_33.png') 50% / cover no-repeat;
+  width: 50px;
+  height: 15px;
+}
+.pembayaran .frame-125 {
+  margin: 1.5px 0;
+  display: flex;
+  width: 70px;
+  height: 15px;
+  box-sizing: border-box;
+}
+.pembayaran .bca {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-101 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-130 {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-169 {
+  border-radius: 8px;
+  background: #FFFFFF;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-111 {
+  margin: 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-34 {
+  background: url('../assets/images/rectangle_34.png') 50% / cover no-repeat;
+  width: 53px;
+  height: 15px;
+}
+.pembayaran .frame-124 {
+  margin: 1.5px 0;
+  display: flex;
+  width: 73px;
+  height: 15px;
+  box-sizing: border-box;
+}
+.pembayaran .mandiri {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-100 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-131 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .frame-133 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .frame-134 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FEFEFE;
+  margin: 0 15px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 26px 26px;
+  width: calc(100% - 31px);
+  box-sizing: border-box;
+}
+.pembayaran .total-biaya {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-135 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .rp-225000 {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-136 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-137 {
+  margin: 0 0px 12px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 330px;
+  box-sizing: border-box;
+}
+.pembayaran .ellipse-1610 {
+  border-radius: 8px;
+  background: #C5323B;
+  width: 16px;
+  height: 16px;
+}
+.pembayaran .frame-1021 {
+  margin: 1px 20px 1px 0;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+}
+.pembayaran .rectangle-251 {
+  background: url('../assets/images/rectangle_25.png') 50% / cover no-repeat;
+  width: 40px;
+  height: 13px;
+}
+.pembayaran .frame-1121 {
+  margin: 2.5px 20px 2.5px 0;
+  display: flex;
+  width: 60px;
+  height: 33px;
+  box-sizing: border-box;
+}
+.pembayaran .ovo-1 {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.pembayaran .frame-901 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-1231 {
+  margin: 10px 18px 13px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.pembayaran .bayar {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 60px;
+  background-color: transparent;
+  border: none;
+}
+.pembayaran .frame-73 {
+  border-radius: 8px;
+  background: #224551;
+  display: flex;
+  padding: 10px 0.4px 10px 0;
+  width: 179px;
+  box-sizing: border-box;
+}
+.pembayaran .frame-138 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .frame-139 {
+  margin: 0 31px 31px 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .vector-4 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 36px;
+  height: 32px;
+}
+.pembayaran .frame-401 {
+  position: relative;
+  margin-bottom: 3px;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.pembayaran .home {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.pembayaran .frame-42 {
+  margin: 0 1.5px 0 1px;
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-40 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.pembayaran .vector-5 {
+  width: 30px;
+  height: 30px;
+}
+.pembayaran .material-symbolshistory {
+  margin: 0 5.3px 4px 5.5px;
+  display: flex;
+  width: 44px;
+  height: 30px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+.pembayaran .history {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.pembayaran .frame-44 {
+  display: flex;
+  box-sizing: border-box;
+}
+.pembayaran .frame-45 {
+  margin: 1px 0px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.pembayaran .frame-141 {
+  background: #46A6C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10.5px 0 11.5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.pembayaran .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.pembayaran .vector-6 {
+  width: 32px;
+  height: 32px;
+}
+.pembayaran .frame-39 {
+  border-radius: 16px;
+  background: #224551;
+  display: flex;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.pembayaran .frame-142 {
+  border-radius: 16px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 156px;
+  bottom: 16px;
+  display: flex;
+  padding: 8px;
+  width: 76px;
+  height: 76px;
+  box-sizing: border-box;
+}
+.pembayaran {
+  background: #FFFFFF;
+  box-sizing: border-box;
+}

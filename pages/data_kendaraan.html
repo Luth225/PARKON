@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Kendaraan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="data_kendaraan.css" />
+</head>
+<body>
+    <div class="iphone-frame">
+        <div class="iphone-screen">
+    <div class="data-kendaraan">
+        <div class="container">
+            <div class="frame-74">
+                <div class="frame-13">
+                    <div class="ellipse-3"></div>
+                    <div class="frame-12">
+                        <div class="frame-10">
+                            <span class="paijo-bejo">Paijo Bejo</span>
+                        </div>
+                        <div class="frame-11">
+                            <span class="where-are-you-going-today">Where are you going today?</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-14">
+                    <div class="material-symbols-lightnotifications-unread-outline-rounded">
+                        <img class="vector" src="../assets/vectors/vector_82_x2.svg" />
+                    </div>
+                    <div class="iconoirlanguage">
+                        <img class="group" src="../assets/vectors/group_18_x2.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="frame-65">
+                <div class="fi-sr-arrow-small-left" id="back-arrow">
+                    <img class="vector-3" src="../assets/vectors/vector_19_x2.svg" />
+                </div>
+                <span class="rute">Data Kendaraan</span>
+            </div>
+            <div class="frame-157">
+                <div class="frame-77">
+                    <span class="isi-data-kendaraan">Isi Data Kendaraan</span>
+                </div>
+                <div class="frame-712">
+                    <span class="pilih-kendaraan">Pilih Kendaraan</span>
+                </div>
+            </div>
+            <div class="frame-73">
+                <div class="frame-72">
+                    <div class="frame-68">
+                        <div>
+                            <span class="nomor-polisi">Nomor Polisi</span>
+                            <input type="text" id="nomor-polisi-input" class="input-box" placeholder="Contoh: AB 1234 CD" />
+                        </div>
+                    </div>
+                    <div class="frame-71">
+                        <div >
+                            <span class="nama-pemilik">Nama Pemilik</span>
+                            <input type="text" id="nama-pemilik-input" class="input-box" placeholder="Masukkan Nama Pemilik" />
+                        </div>
+                    </div>
+                    <div class="frame-69">
+                        <div>
+                            <span class="jenis-kendaraan">Jenis Kendaraan</span>
+                            <input type="text" id="jenis-kendaraan-input" class="input-box" placeholder="Contoh: Motor" />
+                        </div>
+                    </div>
+                    <div class="frame-70">
+                        <div>
+                            <span class="nama-kendaraan">Nama Kendaraan</span>
+                            <input type="text" id="nama-kendaraan-input" class="input-box" placeholder="Masukkan Nama Kendaraan" />
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-711" id="konfirmasi" >
+                    <button class="konfirmasi">Konfirmasi</button>
+                </div>
+            </div>
+            <div class="frame-161">
+                <div class="frame-160">
+                    <span class="data-kendaraan-anda">Data Kendaraan Anda:</span>
+                    <div id="data-kendaraan-display"></div>
+                </div>
+                <div class="frame-713" id="lanjut" >
+                <button class="lanjut">Lanjut</button>
+            </div>
+          </div>
+            <div class="frame-75">
+                <div class="frame-43">
+                    <div class="frame-40">
+                        <img class="vector-4" src="../assets/vectors/vector_44_x2.svg" />
+                    </div>
+                    <div class="frame-42" id="home-link">
+                        <span class="home">Home</span>
+                    </div>
+                </div>
+                <div class="frame-76">
+                    <div class="frame-39">
+                        <img class="vector-6" src="../assets/vectors/vector_70_x2.svg" />
+                    </div>
+                </div>
+                <div class="frame-45">
+                    <div class="material-symbolshistory">
+                        <img class="vector-5" src="../assets/vectors/vector_9_x2.svg" />
+                    </div>
+                    <div class="frame-44">
+                        <span class="history">History</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('konfirmasi').addEventListener('click', function() {
+            const nomorPolisi = document.getElementById('nomor-polisi-input').value;
+            const namaPemilik = document.getElementById('nama-pemilik-input').value;
+            const jenisKendaraan = document.getElementById('jenis-kendaraan-input').value;
+            const namaKendaraan = document.getElementById('nama-kendaraan-input').value;
+
+            // Simpan data ke localStorage
+            localStorage.setItem('nomorPolisi', nomorPolisi);
+            localStorage.setItem('namaPemilik', namaPemilik);
+            localStorage.setItem('jenisKendaraan', jenisKendaraan);
+            localStorage.setItem('namaKendaraan', namaKendaraan);
+
+            // Tampilkan data di halaman
+            document.getElementById('data-kendaraan-display').innerText = `${nomorPolisi} - ${namaPemilik} - ${jenisKendaraan} - ${namaKendaraan}`;
+        });
+
+        document.getElementById('lanjut').addEventListener('click', function() {
+            window.location.href = 'scan_qr.html';
+        });
+
+        document.getElementById('back-arrow').addEventListener('click', function() {
+            window.location.href = 'rute.html';
+        });
+
+        document.getElementById('home-link').addEventListener('click', function() {
+            window.location.href = 'home.html';
+        });
+    </script>
+</body>
+</html>

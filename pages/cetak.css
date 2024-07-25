@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.cetak-struk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #224551;
+    margin-bottom: 20px;
+}
+
+.detail-pembayaran p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.detail-pembayaran strong {
+    font-weight: 600;
+}
+
+button {
+    background-color: #224551;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a3441;
+}
+
+button:active {
+    background-color: #12282f;
+}
+.login .screenshot-20240701101313-removebg-preview-3 {
+    background: url('../assets/images/screenshot_20240701101313_removebg_preview_1.png') center / contain no-repeat;
+    margin-bottom: 5px;
+    width: 202px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+  
+  .login .screenshot-20240701101313-removebg-preview-3 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  

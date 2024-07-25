@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cetak Struk</title>
+    <link rel="stylesheet" href="cetak.css" />
+</head>
+<body>
+    <div class="iphone-frame">
+        <div class="iphone-screen">
+    <div class="cetak-struk">
+        <div class="container">
+            <h1>Struk Pembayaran</h1>
+            <div class="login">
+                <div class="screenshot-20240701101313-removebg-preview-3">
+                  <img src="../assets/images/screenshot_20240701101313_removebg_preview_1.png" alt="Screenshot">
+                </div>
+            <div class="detail-pembayaran">
+                <p><strong>Nomor Polisi:</strong> <span id="nomor-polisi"></span></p>
+                <p><strong>Jenis Kendaraan:</strong> <span id="jenis-kendaraan"></span></p>
+                <p><strong>Nama Kendaraan:</strong> <span id="nama-kendaraan"></span></p>
+                <p><strong>Lokasi Parkir:</strong> <span id="lokasi-parkir"></span></p>
+                <p><strong>Waktu Parkir:</strong> <span id="waktu-parkir"></span></p>
+                <p><strong>Waktu Keluar:</strong> <span>14.00,00</span></p>
+                <p><strong>Biaya Keluar:</strong> <span> Rp 3000</span></p>
+            </div>
+            <button onclick="window.print()">Cetak Struk</button>
+            <button onclick="kembaliKeHome()">Kembali</button>
+        </div>
+    </div>
+    <script>
+        // Mengambil data kendaraan dan pembayaran dari localStorage
+        const vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
+        const paymentData = JSON.parse(localStorage.getItem('paymentData'));
+
+        // Menampilkan data kendaraan
+        document.getElementById('nomor-polisi').innerText = vehicleData ? vehicleData.nomorPolisi : 'Tidak tersedia';
+        document.getElementById('jenis-kendaraan').innerText = vehicleData ? vehicleData.jenisKendaraan : 'Tidak tersedia';
+        document.getElementById('nama-kendaraan').innerText = vehicleData ? vehicleData.namaKendaraan : 'Tidak tersedia';
+        document.getElementById('lokasi-parkir').innerText = vehicleData ? vehicleData.location : 'Tidak tersedia';
+        document.getElementById('waktu-parkir').innerText = vehicleData ? vehicleData.time : 'Tidak tersedia';
+
+        // Menampilkan waktu keluar dan biaya keluar (jika ada)
+        if (paymentData) {
+            document.getElementById('waktu-keluar').innerText = paymentData.waktuKeluar;
+                document.getElementById('biaya-keluar').innerText = paymentData.biayaKeluar.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+            }
+
+        // Tambahkan log untuk debugging
+        console.log("Data Kendaraan:", vehicleData);
+        console.log("Data Pembayaran:", paymentData);
+
+        function kembaliKeHome() {
+            window.location.href = 'home.html';
+        }
+    </script>
+</body>
+</html>

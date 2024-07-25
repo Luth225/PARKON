@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sign_up.css" />
+  </head>
+  <body>
+    <div>
+    <div class="iphone-frame">
+      <div class="iphone-screen">
+    <div class="sign-up">
+      <div class="image-2">
+        <div class="screenshot-20240701101313-removebg-preview-4"></div>
+      <div class="frame-9">
+        <div class="frame-8">
+          <div class="frame-11">
+            <span class="login" id="loginButton">
+              Login
+            </span>
+          </div>
+          <div class="frame-10">
+            <span class="sign-up-1">
+              Sign Up
+            </span>
+          </div>
+        </div>
+        <form id="signUpForm">
+          <div class="frame-7">
+            <div class="frame-12">
+              <span class="nama">
+                Nama
+              </span>
+              <input type="text" id="nama" name="nama" required />
+            </div>
+            <div class="frame-15">
+              <span class="email">
+                Email
+              </span>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="frame-14">
+              <span class="password">
+                Password
+              </span>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="frame-13">
+              <span class="conirm-password">
+                Confirm Password
+              </span>
+              <input type="password" id="confirmPassword" name="confirmPassword" required />
+            </div>
+          </div>
+          <div class="frame-101">
+            <button type="submit" class="sign-up-2">
+              Sign Up
+            </button>
+          </div>
+        </form>
+        <div id="message" style="display: none; color: green; text-align: center; margin-top: 20px;">
+          Pendaftaran berhasil! Silakan login.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>document.getElementById('signUpForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+    
+      const nama = document.getElementById('nama').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+      const confirmPassword = document.getElementById('confirmPassword').value;
+    
+      // Validate input
+      if (password !== confirmPassword) {
+        alert('Passwords do not match.');
+        return;
+      }
+    
+      // Store user data in localStorage
+      localStorage.setItem('userEmail', email);
+      localStorage.setItem('userPassword', password);
+    
+      // Show success message
+      document.getElementById('message').style.display = 'block';
+    
+      // Redirect to login page after a delay
+      setTimeout(function() {
+        window.location.href = 'login.html';
+      }, 2000); // 2 seconds delay
+    });
+    
+    document.getElementById('loginButton').addEventListener('click', function() {
+      window.location.href = 'login.html';
+    });
+    </script>
+  </body>
+</html>

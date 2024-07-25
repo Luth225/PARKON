@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="iphone-frame">
+      <div class="iphone-screen">
+        <div>
+          <div class="login">
+            <div class="screenshot-20240701101313-removebg-preview-3">
+              <img src="../assets/images/screenshot_20240701101313_removebg_preview_1.png" alt="Screenshot">
+            </div>
+      <div class="frame-9">
+        <div class="frame-8">
+          <div class="frame-1">
+            <span class="login-1">
+              Login
+            </span>
+          </div>
+          <div class="frame-81">
+            <span class="sign-up" id="signUpButton">
+              Sign Up
+            </span>
+          </div>
+        </div>
+        <form id="loginForm">
+          <div class="frame-7">
+            <div class="frame-3">
+              <span class="email">
+                Email
+              </span>
+              <input type="email" id="loginEmail" name="loginEmail" required />
+            </div>
+            <div class="frame-4">
+              <span class="password">
+                Password
+              </span>
+              <input type="password" id="loginPassword" name="loginPassword" required />
+            </div>
+            <div class="frame-5">
+              <span class="forgot-password" id="forgotPassword">
+                Forgot Password?
+              </span>
+            </div>
+          </div>
+          <div class="frame-11">
+            <button type="submit" class="login-2">
+              Login
+            </button>
+          </div>
+        </form>
+        <div id="loginMessage" style="display: none; color: red; text-align: center; margin-top: 20px;">
+          Email atau password belum terdaftar. Silakan <a href="sign_up.html">sign up</a>.
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+    <script>document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+    
+      const email = document.getElementById('loginEmail').value;
+      const password = document.getElementById('loginPassword').value;
+    
+      // Get stored user data
+      const storedEmail = localStorage.getItem('userEmail');
+      const storedPassword = localStorage.getItem('userPassword');
+    
+      // Validate login
+      if (email === storedEmail && password === storedPassword) {
+        // Successful login
+        window.location.href = 'home.html';
+      } else {
+        // Failed login
+        document.getElementById('loginMessage').style.display = 'block';
+      }
+    });
+    
+    document.getElementById('signUpButton').addEventListener('click', function() {
+      window.location.href = 'sign_up.html';
+    });
+    
+    document.getElementById('forgotPassword').addEventListener('click', function() {
+      alert('silahkan ingat-ingat atau buat akun baru saja');
+    });
+    </script>
+  </body>
+</html>
